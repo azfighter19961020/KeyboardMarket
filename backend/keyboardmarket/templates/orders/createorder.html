@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>建立訂單</title>
+</head>
+<body>
+	<h1>親愛的{{ username }}您好，</h1>
+
+	<p>感謝您在鍵盤貿易中下訂單，</p>
+	<p>以下為你的訂單明細：</p>
+
+	<table>
+		<thead>
+			<th>商品名稱</th>
+			<th>商品價格</th>
+			<th>商品數量</th>
+			<th>小計</th>
+		</thead>
+		<tbody>
+			{% for product in products %}
+			    <tr>
+			    	<td>{{ product.name }}</td>
+			    	<td>{{ product.price }}</td>
+			    	<td>{{ product.amount }}</td>
+			    	<td>{% widthratio product.amount 1 product.price %}</td>
+			    </tr>
+			{% endfor %}
+		</tbody>
+	</table>
+
+	<p>訂單編號：{{ orderno }}</p>
+	<p>訂購時間：{{ created_time }}</p>
+	<p>訂單狀態： {{ status }}</p>
+
+	<p>有任何疑問歡迎洽詢鍵盤貿易客服：charlieda@keyboardmarket.org</p>
+	<p>本郵件為自動發送，請勿做任何回覆。</p>
+</body>
+</html>
+
+
+
+
