@@ -118,7 +118,7 @@
 					ref="recaptcha"
 					@verify="captchaVerified"
 					@expired="captchaExpired"
-					sitekey="6LcMB7kcAAAAAI_6uZG77-bK-Qn_rJWx3F1u4Y2o"
+					sitekey=""
 					:loadRecaptchaScript="true"
 					>
 					</vue-recaptcha>
