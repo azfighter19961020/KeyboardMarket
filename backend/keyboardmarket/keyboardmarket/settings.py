@@ -87,7 +87,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'keyboardmarket',
         'USER': 'root',
-        'PASSWORD': 'charlie11438',
+        'PASSWORD': '',
         'HOST': '127.0.0.1',
         'PORT': '3306',
     }
@@ -170,5 +170,5 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'changedyourself@gmail.com'
-EMAIL_HOST_PASSWORD = 'qhnyuakpzrgehxqx'
+EMAIL_HOST_USER = ''
+EMAIL_HOST_PASSWORD = ''
