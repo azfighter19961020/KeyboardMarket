@@ -13,4 +13,4 @@
  驗證、忘記密碼：PyJWT
  
 
-<a href="http://crystaltechzone.in:5001/#/index">點我前往範例</a>
+<a href="http://104.197.236.86:5001/#/index">點我前往範例</a>
